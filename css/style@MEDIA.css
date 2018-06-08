@@ -29,23 +29,28 @@ a:visited {
     color: gray;
 }
 h1 {
-	font-family: Raleway-Bold;
-	text-align: center;
-	font-size: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-    margin-top: 0px;
+
+    width: 100%;
+    height: 100%;
+    font-family: Raleway-Bold;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    padding-left: 5px;
+    top: 0px;
+    bottom: 5px;
 }
 
 .h1Border {
-
+	width: 95%;
     position: relative;
     border: 1px dashed;
     border-radius: 10px;
-    /*top: 6px;
+    top: 6px;
     left: 6px;
     right: 6px;
-    bottom: 6px;*/
+    bottom: 6px;
     color: white;
 }
 .divBorder {
@@ -92,6 +97,7 @@ h2 {
 	max-height: 771px;
 }
 .header {
+	position: relative;
 	background: url("../img/header-background.png");
 	height: 80px;
 	width: 600px;
@@ -112,12 +118,7 @@ ul>li {
 	padding-bottom: 20px;
 	padding-right: 15px;
 }
-.topLeaf {
-	position: absolute;
-	margin: 85px 50px;
-	width: 190px;
-	top:11px;
-}
+
 
 
 .footer {
@@ -152,7 +153,7 @@ ul>li {
 	/*margin: 90px 80px 130px 25px;*/
 }
 .contentLeft {
-	/*position: relative;*/
+	position: relative;
 	float: left;
 	width: 60%;
 	border: 2px dotted #8DC63F;
@@ -211,15 +212,39 @@ ul>li {
 	color: #0F9842;
 }
 
-
-
 @media screen and (max-width: 1366px)
-.contentLeft{
-	width: 100%;
-}
-
-@media screen and (max-width: 767px) {
+{
 	.contentLeft{
 		width: 50%;
 	}
+
+	.topLeaf {
+	position: absolute;
+	width: 190px;
+	top:-40px;
+	left: 48px;
+	}
 }
+
+
+/*@media screen and (max-width: 767px) {
+	.contentLeft{
+		width: 33.33333333%;
+	}
+}*/
+
+@media screen and (max-width: 767px) {
+/*	.topLeaf {
+	position: absolute;
+	margin: 85px 50px;
+	width: 50%;
+	top:-40px;
+	left: 48px;
+}
+*/	.contentLeft, .contentRight {
+		width: 100%;
+	}
+	
+}
+
+
