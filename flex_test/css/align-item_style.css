@@ -1,0 +1,40 @@
+.container {
+	display: flex;
+	width: 1366px;
+	/*height: auto;*/
+}
+.container p {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.around_p{
+	/*display: flex;*/
+	flex-grow: 0;
+	width: 80%;
+	border-radius: 30px;
+	background-color: linen;
+}
+
+.first {
+	justify-content: center;
+	display: flex;
+	/*align-items: center;*/
+	background-color: lightpink;
+	width: 300px;
+	/*padding: 20px;*/
+}
+
+.second {
+	display: flex;
+	align-items: flex-start;
+	background-color: lightyellow;
+	padding: 20px;	
+}
+
+.third {
+	display: flex;
+	align-items: flex-end;
+	background-color: lightblue;
+	padding: 20px;
+}

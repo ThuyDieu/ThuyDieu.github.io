@@ -1,0 +1,25 @@
+.container {
+	display: flex;
+	align-items: center;
+	max-width: 1322px;
+	height: 700px;
+	background:  url(../img/bg-decor-1.png) top center, url(../img/bg-decor-2.png) bottom center;
+	background-repeat: no-repeat;
+	background-color: lightblue;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.title{
+	padding: 20px;
+}
+
+.content{
+	padding: 80px;
+	display: flex;
+	align-items: center;
+}
+

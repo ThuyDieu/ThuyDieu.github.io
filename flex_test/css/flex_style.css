@@ -4,13 +4,22 @@
 	display: -webkit-flex; /* Safari */
 	flex-wrap: wrap;
 	/*align-items: stretch;*/
-	width: 1240px;
-	height: 360px;
+	width: auto;
+	height: auto;
 	margin: 0 auto;
 }
 
 .text{
 	padding: 5px;
+}
+
+.card button{
+	background-color: gray;
+	border-width: 0;
+	color: white;
+	justify-content: center;
+	padding: 10px;
+
 }
 
 .card img{
@@ -19,31 +28,27 @@
 }
 
 .card{
-	flex-basis: 177px; /*flex-grow flex-shrink flex-basis*/
+	flex: 1; /*flex-grow flex-shrink flex-basis*/
 	/*margin: 10px;*/
 }
 
 .card:nth-child(1){
-	flex-grow: 2;
+	flex-grow: 2	;
 	background-color: lightpink;
+	align-items: flex-start;
 }
 .card:nth-child(2){
-	flex-grow: 1;
 	background-color: lightblue;
 }
 .card:nth-child(3){
-	flex-grow: 1;
 	background-color: lightgreen;
 }
 .card:nth-child(4){
-	flex-grow: 1;
 	background-color: lightyellow;
 }
 .card:nth-child(5){
-	flex-grow: 1;
 	background-color: lightgray;
 }
 .card:nth-child(6){
-	flex-grow: 1;
 	background-color: orange;
 }
