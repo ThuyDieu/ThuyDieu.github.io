@@ -3,9 +3,9 @@
 	align-items: center;
 	max-width: 1322px;
 	height: 700px;
-	background:  url(../img/bg-decor-1.png) top center, url(../img/bg-decor-2.png) bottom center;
+	background:  url(../img/bg-decor-2.png) top center , url(../img/bg-decor-1.png) bottom center;
 	background-repeat: no-repeat;
-	background-color: lightblue;
+	background-color: #FFFFFF;
 }
 
 .row {
@@ -23,3 +23,10 @@
 	align-items: center;
 }
 
+
+.btn_under{
+	transform: rotate(5deg);
+}
+.button{
+	transform: rotate(-5deg);
+}
