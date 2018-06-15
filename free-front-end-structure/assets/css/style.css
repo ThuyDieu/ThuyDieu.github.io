@@ -228,8 +228,8 @@ a:focus {
   max-width: 710px;
   margin: 0 auto; }
   .home .container .part_two .content .bottom_img img {
-    margin-top: 30px;
-    width: 100%; }
+    margin-top: 500px;
+    width: 30%; }
 .home .container .part_three {
   padding-bottom: 90px; }
   .home .container .part_three .description {
@@ -261,6 +261,8 @@ a:focus {
   border: double 30px #F0F6F9;
   border-radius: 10px;
   box-shadow: inset 1px -4px 6px rgba(145, 161, 181, 0.3); }
+  .home .container .screen img {
+    border-radius: 10px; }
 .home .container .carousel-indicators li {
   width: 10px;
   height: 10px;

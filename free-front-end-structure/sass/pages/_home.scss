@@ -24,8 +24,8 @@
 				margin: 0 auto;
 				.bottom_img {
 					img {
-						margin-top: 30px;
-						width: 100%;
+						margin-top: 500px;
+						width: 30%;
 					}
 				}
 			}
@@ -75,6 +75,9 @@
 			border: double 30px #F0F6F9;
 			border-radius: 10px;
 			box-shadow: inset 1px -4px 6px rgba(145,161,181,.3);
+			img {
+				border-radius: 10px;
+			}
 		}	
 		.carousel-indicators li {
 			width: 10px;
