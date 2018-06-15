@@ -217,16 +217,20 @@ a:focus {
     -ms-transform: translate(-20px, -20px);
     -webkit-transform: translate(-20px, -20px);
     transform: translate(-20px, -20px); } }
-.home .container-fluid .part_one .content .content_one, .home .container-fluid .part_one .content .content_two, .home .container-fluid .part_one .content .content_three, .home .container-fluid .part_one .content .part_two {
+.home .container-fluid .part_one .content .part_two {
   text-align: center; }
-  .home .container-fluid .part_one .content .content_one h4, .home .container-fluid .part_one .content .content_two h4, .home .container-fluid .part_one .content .content_three h4, .home .container-fluid .part_one .content .part_two h4 {
+  .home .container-fluid .part_one .content .part_two h4 {
     padding-bottom: 20px;
     padding-top: 20px; }
+.home .container-fluid .part_one h4 {
+  margin: 15px 0px 15px 0px; }
 .home .container-fluid .part_two .content .bottom_img img {
   margin-top: 30px;
   width: 100%; }
 .home .container-fluid .part_three {
   padding-bottom: 90px; }
+  .home .container-fluid .part_three .description {
+    margin: 0px 200px 0px 200px; }
 .home .container-fluid .part_four .content .title {
   text-align: left;
   font-size: 20px;
@@ -259,6 +263,8 @@ a:focus {
   border-radius: 100px;
   border: double 1px;
   border-color: gray; }
+.home .container-fluid .carousel-indicators .active {
+  background-color: lightgray; }
 
 .footer {
   height: 300px; }

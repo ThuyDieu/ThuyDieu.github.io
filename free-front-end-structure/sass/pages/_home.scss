@@ -2,7 +2,7 @@
 	.container-fluid {
 		.part_one {
 			.content {
-				.content_one, .content_two, .content_three, .part_two {
+				.part_two {
 					text-align: center;
 					h4 {
 						padding-bottom: 20px;
@@ -11,6 +11,13 @@
 				}
 			}
 		}
+
+		.part_one {
+			h4 {
+				margin: 15px 0px 15px 0px;
+			}
+		}
+
 		.part_two {
 			.content {
 				.bottom_img {
@@ -23,6 +30,9 @@
 		}
 		.part_three {
 			padding-bottom: 90px;
+			.description {
+				margin: 0px 200px 0px 200px;
+			}
 		}
 		.part_four {
 			.content {
@@ -57,6 +67,7 @@
 			// background-color: red;
 			text-align: center;
 		}
+
 		.screen {
 			background-color: #F0F6F9;
 			border: double 30px #F0F6F9;
@@ -69,7 +80,10 @@
 		  	border-radius: 100px;
 			border: double 1px;
 		  	border-color: gray;
-		  
+		}
+
+		.carousel-indicators .active {
+			background-color: lightgray;
 		}
 	}
 }
