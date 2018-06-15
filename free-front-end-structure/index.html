@@ -74,28 +74,36 @@
 								
 							</div>
 							<div class="col-lg-1 col-md-1 col-sm-3 col-3 ">
-								<img src="img/angular.jpg" alt="angular">
+								<a href="#"> <img src="img/angular.jpg" data-toungle="tooltip" title="Vue.js - The progressive javascript framework" alt="angular">
+								</a>
 							</div>
 							<div class="col-lg-1 col-md-1 col-sm-3 col-3">
-								<img src="img/bootstrap.jpg" alt="bootstrap">
+								<a href="#"> <img src="img/bootstrap.jpg" data-toungle="tooltip" title="Angular - One framework. Mobile &amp; desktop" alt="bootstrap">
+								</a>
 							</div>
 							<div class="col-lg-1 col-md-1 col-sm-3 col-3">
-								<img src="img/figma.jpg" alt="figma">
+								<a href="#"> <img src="img/figma.jpg" data-toungle="tooltip" title="React - A JavaScript library for building user interfaces" alt="figma">
+								</a>
 							</div>
 							<div class="col-lg-1 col-md-1 col-sm-3 col-3">
-								<img src="img/ps.jpg" alt="photoshop">
+								<a href="#"> <img src="img/ps.jpg" data-toungle="tooltip" title="Bootstrap - Most popular front-end component library" alt="photoshop">
+								</a>
 							</div>
 							<div class="col-lg-1 col-md-1 col-sm-3 col-3">
-								<img description src="img/react.jpg" alt="react">
+								<a href="#"> <img description src="img/react.jpg" data-toungle="tooltip" title="Sass - Powerful professional CSS extension language in the world" alt="react">
+								</a>
 							</div>
 							<div class="col-lg-1 col-md-1 col-sm-3 col-3">
-								<img src="img/sass.jpg" alt="sass">
+								<a href="#"> <img src="img/sass.jpg" data-toungle="tooltip" title="Adobe Photoshop - Software for digital images manipulation" alt="sass">
+								</a>
 							</div>
 							<div class="col-lg-1 col-md-1 col-sm-3 col-3">
-								<img src="img/sketch.jpg" alt="sketch">
+								<a href="#"> <img src="img/sketch.jpg" data-toungle="tooltip" title="Sketch - Digital design toolkit" alt="sketch">
+								</a>
 							</div>
 							<div class="col-lg-1 col-md-1 col-sm-3 col-3">
-								<img src="img/vue.jpg" alt="vue">
+								<a href="#"> <img src="img/vue.jpg" data-toungle="tooltip" title="Figma - Turn Ideas Into Products Faster" alt="vue">
+								</a>
 							</div>
 							<div class="col-lg-2 col-md-2 col-sm-2">
 								
@@ -190,6 +198,11 @@
 	<script src="assets/js/jquery-3.3.1.min.js"></script>
 	<!-- <script src="assets/js/bootstrap.min.js"></script> -->
 	<script src="assets/js/app.js"></script>
+	<script>
+	$(document).ready(function(){
+    	$('[data-toggle="tooltip"]').tooltip();   
+	});
+</script>
 </body>
 
 </html>
