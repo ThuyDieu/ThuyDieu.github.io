@@ -20,6 +20,8 @@
 
 		.part_two {
 			.content {
+				max-width: 710px;
+				margin: 0 auto;
 				.bottom_img {
 					img {
 						margin-top: 30px;
@@ -72,7 +74,7 @@
 			background-color: #F0F6F9;
 			border: double 30px #F0F6F9;
 			border-radius: 10px;
-
+			box-shadow: inset 1px -4px 6px rgba(145,161,181,.3);
 		}	
 		.carousel-indicators li {
 			width: 10px;

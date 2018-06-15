@@ -224,9 +224,12 @@ a:focus {
     padding-top: 20px; }
 .home .container .part_one h4 {
   margin: 15px 0px 15px 0px; }
-.home .container .part_two .content .bottom_img img {
-  margin-top: 30px;
-  width: 100%; }
+.home .container .part_two .content {
+  max-width: 710px;
+  margin: 0 auto; }
+  .home .container .part_two .content .bottom_img img {
+    margin-top: 30px;
+    width: 100%; }
 .home .container .part_three {
   padding-bottom: 90px; }
   .home .container .part_three .description {
@@ -256,7 +259,8 @@ a:focus {
 .home .container .screen {
   background-color: #F0F6F9;
   border: double 30px #F0F6F9;
-  border-radius: 10px; }
+  border-radius: 10px;
+  box-shadow: inset 1px -4px 6px rgba(145, 161, 181, 0.3); }
 .home .container .carousel-indicators li {
   width: 10px;
   height: 10px;
