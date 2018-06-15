@@ -217,32 +217,32 @@ a:focus {
     -ms-transform: translate(-20px, -20px);
     -webkit-transform: translate(-20px, -20px);
     transform: translate(-20px, -20px); } }
-.home .container-fluid .part_one .content .part_two {
+.home .container .part_one .content .part_two {
   text-align: center; }
-  .home .container-fluid .part_one .content .part_two h4 {
+  .home .container .part_one .content .part_two h4 {
     padding-bottom: 20px;
     padding-top: 20px; }
-.home .container-fluid .part_one h4 {
+.home .container .part_one h4 {
   margin: 15px 0px 15px 0px; }
-.home .container-fluid .part_two .content .bottom_img img {
+.home .container .part_two .content .bottom_img img {
   margin-top: 30px;
   width: 100%; }
-.home .container-fluid .part_three {
+.home .container .part_three {
   padding-bottom: 90px; }
-  .home .container-fluid .part_three .description {
+  .home .container .part_three .description {
     margin: 0px 200px 0px 200px; }
-.home .container-fluid .part_four .content .title {
+.home .container .part_four .content .title {
   text-align: left;
   font-size: 20px;
   padding: 15px 0px 15px 0px;
   margin: 0; }
-.home .container-fluid .part_four .content .description {
+.home .container .part_four .content .description {
   text-align: left;
   padding-bottom: 70px;
   button: hover;
     button-color: #6772E5;
     button-border-color: #6772E5; }
-  .home .container-fluid .part_four .content .description button {
+  .home .container .part_four .content .description button {
     font-weight: bold;
     border-color: #858EEA;
     box-shadow: 3px 3px;
@@ -251,19 +251,19 @@ a:focus {
     border-radius: 10px;
     margin-top: 30px;
     padding: 20px; }
-.home .container-fluid .description {
+.home .container .description {
   text-align: center; }
-.home .container-fluid .screen {
+.home .container .screen {
   background-color: #F0F6F9;
   border: double 30px #F0F6F9;
   border-radius: 10px; }
-.home .container-fluid .carousel-indicators li {
+.home .container .carousel-indicators li {
   width: 10px;
   height: 10px;
   border-radius: 100px;
   border: double 1px;
   border-color: gray; }
-.home .container-fluid .carousel-indicators .active {
+.home .container .carousel-indicators .active {
   background-color: lightgray; }
 
 .footer {
