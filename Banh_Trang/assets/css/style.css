@@ -286,24 +286,24 @@ a:focus {
           z-index: -1; }
         .home .banner-below .owl-wrapper-outer .owl-wrapper .owl-item .slide .slide:after {
           background-color: rgba(0, 0, 0, 0.5); }
-.home .banner-below .img-content img {
-  border-radius: 100px; }
-.home .banner-below .img-content .slider-title > h1 {
+.home .img-content .slider-title > h1 {
   margin-top: 5rem;
   margin-bottom: 3rem;
-  font-weight: 700;
-  color: #ffc63d; }
-.home .banner-below .img-content .carousel-indicators {
+  font-weight: bolder;
+  color: #ffc63d;
+  font-size: 30px; }
+.home .img-content .carousel-indicators li {
   width: 15px;
   height: 15px;
   border-radius: 100px;
   border: double 1px;
   border-color: gray; }
-.home .banner-below .img-content .carousel-indicators .active {
+.home .img-content .carousel-indicators .active span {
   background-color: black;
   width: 10px;
   height: 10px; }
-.home .footer {
+
+.footer {
   height: 300px; }
 
 .about .banner {
