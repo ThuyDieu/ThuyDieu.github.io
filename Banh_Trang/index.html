@@ -9,10 +9,15 @@
 	<script src="assets/js/jquery-3.3.1.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  	<script src="assets/js/owl.carousel.min.js"></script>
+  	<script src="assets/js/app.js"></script>
+
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/fonts/UTMAvo/styles.css">
 	<link rel="stylesheet" href="assets/fonts/UTMAvo-Italic/styles.css">
 	<link rel="stylesheet" href="assets/fonts/UTMAvoBold/styles.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -20,41 +25,133 @@
 	<div class="home">
 		<div class="container-fluid">
 			<div class="menu">
-				<nav class="d-lg-flex flex-row">
-					<nav class="nav navbar-brand mr-auto">
-						<img src="img/page.png">
+				<nav class="d-lg-flex flex-row">	
+					<nav class="navbar navbar-expand-sm navbar-light">
+					  	<a class="navbar-brand" href="#">
+					  		<img src="img/page.png">
+					  	</a>
+					  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					    	<span class="navbar-toggler-icon"></span>
+					 	 </button>
+					  	<div class="collapse navbar-collapse navbar-right" id="collapsibleNavbar">
+						    <ul class="nav navbar-nav">
+						    	<li class="nav-item">
+						    		<a class="nav-link" href="#">Trang chủ</a>
+						    	</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Giá cả</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Liên hệ</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Về chúng tôi</a>
+								</li>    
+							</ul>
+					  	</div>  
 					</nav>
-					<ul>
-						<li class="nav-item"><a href="#">Trang chủ</a></li>
-						<li class="nav-item"><a href="#">Giá cả</a></li>
-						<li class="nav-item"><a href="#">Liên hệ</a></li>
-						<li class="nav-item"><a href="#">Về chúng tôi</a></li>
+				</nav>	
+			</div>
+
+			<div class="banner">
+				<div class="content-banner">
+					<h1>Bánh Tráng Tây Ninh</h1>
+					<p>497 Hòa Hảo, P.7, Q.10, HCM</p>
+				</div>
+			</div>
+
+			<div class="banner-below carousel-slide owl-carousel owl-theme" style="opacity: 1; display: block;">
+				<div class="carouse-row">
+		            <div class="owl-wrapper-outer">
+		             	<div class="owl-wrapper">
+		             		<div class="owl-item">
+		             			<div class="slide" style="background-image: url('img/bo.jpg');">
+		             				<h3>Bánh Sốt Bơ<br>8000đ/1 bịch</h3>
+		             			</div>
+		         			</div>
+
+					        <div class="owl-item">
+					         	<div class="slide" style="background-image: url('img/me.jpg');">
+					         		<h3>Bánh Sốt Me<br>8000đ/1 bịch</h3>
+					            </div>
+					        </div>
+
+					        <div class="owl-item">
+					         	<div class="slide" style="background-image: url('img/tac.jpg');">
+					               <h3>Bánh Sốt Satế Tắc<br>8000đ/1 bịch</h3>
+					            </div>
+					        </div>
+
+					        <div class="owl-item">
+					         	<div class="slide" style="background-image: url('img/kho-bo.jpg');">
+					               <h3>Trộn Khô Bò<br>15000đ/1 bịch</h3>
+					            </div>
+					        </div>
+
+					        <div class="owl-item">
+					         	<div class="slide" style="background-image: url('img/xau.jpg');">
+					               <h3>Bánh xâu hành phi<br>15000đ/1 xâu</h3>
+					             </div>
+					        </div>
+
+					        <div class="owl-item">
+					         	<div class="slide" style="background-image: url('img/muoi-tom.jpg');">
+					               <h3>Muối tôm<br>15000đ/1 hộp</h3>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+					<!-- <div class="owl-controls" style="display: none;">
+						<div class="owl-buttons">
+							<div class="owl-prev">
+								<img src="img/arrow-left.svg" alt="left arrow">
+							</div>
+							<div class="owl-next">
+								<img src="img/arrow-right.svg" alt="right arrow">
+							</div>
+						</div>
+					</div> -->
+	 			</div>
+			</div>
+
+			<div class="img-content">
+				<div class="slider-title">
+	            	<h1 class="text-center">HÌNH ẢNH VỀ SẢN PHẨM</h1>
+	        	</div>
+	        	
+	        	<div id="demo" class="carousel slide" data-ride="carousel">
+					<ul class="carousel-indicators">
+					    <li data-target="#demo" data-slide-to="0" class="active"></li>
+					    <li data-target="#demo" data-slide-to="1"></li>
+					    <li data-target="#demo" data-slide-to="2"></li>
+					    <li data-target="#demo" data-slide-to="3"></li>
+					    <li data-target="#demo" data-slide-to="4"></li>
+					    <li data-target="#demo" data-slide-to="5"></li>
 					</ul>
-				</nav>
-			</div>
-		</div>
-
-		<div class="banner">
-			<div class="content-banner">
-				<h1>Bánh Tráng Tây Ninh</h1>
-				<p>497 Hòa Hảo, P.7, Q.10, HCM</p>
-			</div>
-		</div>
-
-		<div>
-			<ul class="banner-below d-lg-flex flex-row flex-nowrap">
-				<li><img src="img/bo.jpg"></li>
-				<li><img src="img/me.jpg"></li>
-				<li><img src="img/tac.jpg"></li>
-				<li><img src="img/kho-bo.jpg"></li>
-				<li><img src="img/xau.jpg"></li>
-				<li><img src="img/muoi-tom.jpg"></li>
-			</ul>
-		</div>
-
-	</div>	
-	
-	<script src="assets/js/app.js"></script>
+							  
+					<div class="img-slider carousel carousel-inner">
+						<div class="carousel-item active">
+	        				<img class="d-block" src="img/bo (1).jpg" alt="banh trang">
+	        			</div>
+		        		<div class="carousel-item">
+		        			<img class="d-block" src="img/kho-bo (1).jpg" alt="banh trang">
+		        		</div>
+		        		<div class="carousel-item">
+		        			<img class="d-block" src="img/me (1).jpg" alt="banh trang">
+		        		</div>
+		        		<div class="carousel-item">
+		        			<img class="d-block" src="img/muoi-tom (1).jpg" alt="banh trang">
+		        		</div>
+		        		<div class="carousel-item">
+		        			<img class="d-block" src="img/tac (1).jpg" alt="banh trang">
+		        		</div>
+		        		<div class="carousel-item">
+		        			<img class="d-block" src="img/xau (1).jpg" alt="banh trang">
+						</div>									
+					</div>
+				</div>
+        	</div>
+		</div>	
 </body>
 
 </html>

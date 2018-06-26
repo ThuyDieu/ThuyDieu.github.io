@@ -1,4 +1,31 @@
 .home {
+	.container-fluid {
+		margin: 0 auto;
+	    max-width: 1000px;
+	    width: 90%;
+	}
+	.menu {
+		background-color: #17A2B8;
+		.navbar-light .navbar-nav .nav-link {
+    		color: white;
+		}
+
+		.navbar .navbar-expand-sm .navbar-light {
+		    padding-top: 0px;
+		    padding-bottom: 0px;
+		}
+
+		ul>li {
+			.nav-link {
+			    padding: 20px 15px;
+		    }
+		}
+		ul>li>a:hover {
+			background-color: white;
+			color: blue !important;
+			
+		}
+	}
 	.banner {
 		background: url("../../img/banner.jpg") fixed no-repeat;	
 		min-height: 576px;
@@ -23,34 +50,90 @@
 		    }
 		    p {
 		    	font-size: 36px;
+		    	color: white;
 		    }
 		}
 	}
-	
-	.menu {
-		color: white;
-		background-color: #0090C4;
-		ul>li {
-			padding: 20px 15px;
-		}
-		a: hover {
-			color: black;
-			background-color: white;
+
+	.banner-below{
+		.owl-wrapper-outer {
+			overflow: hidden;
+		    position: relative;
+		    width: 100%;
+		    .owl-wrapper {
+		    	width: 2532px; 
+		    	left: 0px; 
+		    	display: block; 
+		    	.owl-item {
+		    		width: 211px;
+		    		float: left;
+		    		.slide {
+		    			position: relative;
+					    display: -webkit-flex;
+					    display: flex;
+					    -webkit-align-items: center;
+					    align-items: center;
+					    padding: 0 1em;
+					    height: 30vh;
+					    background-repeat: no-repeat;
+					    background-position: center;
+					    background-size: 100% 100%;
+					    cursor: pointer;
+					    z-index: 1;
+							h3 {
+							    margin: auto;
+							    text-align: center;
+							    text-transform: uppercase;
+							    color: #fff;
+							    font-weight: normal;
+							}
+							h3::after {
+								content: "";
+							    position: absolute;
+							    top: 0;
+							    bottom: 0;
+							    left: 0;
+							    right: 0;
+							    background-color: rgba(0,0,0,0.5);
+							    z-index: -1;
+		    				}
+		    		.slide:after {
+						background-color: rgba(0,0,0,0.5);
+		    		}
+		    	}
+		    }
 		}
 	}
 
-	.banner-below {
-		position: relative;
-		ul>li {
-			float: left;
-		}
+	.img-content {
 		img {
-			width: 210px;
-			height: 144px;
+			border-radius: 100px;	
+		}
+		
+		.slider-title>h1 {
+			margin-top: 5rem;
+		    margin-bottom: 3rem;
+		    font-weight: 700;
+		    color: #ffc63d;
+		}
+
+		 .carousel-indicators {
+			width: 15px;
+		  	height: 15px;
+		  	border-radius: 100px;
+			border: double 1px;
+		  	border-color: gray;
+		}
+
+		.carousel-indicators .active {
+			background-color: black;
+			width: 10px;
+		  	height: 10px;
 		}
 	}
 }
 .footer {
 	// background-color: blue;
 	height: 300px;
+}
 }
