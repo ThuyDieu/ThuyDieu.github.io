@@ -56,8 +56,7 @@ b, strong {
 
 body {
   font-family: 'UTMAvo', sans-serif;
-  font-size: 20px;
-  font: monospace; }
+  font-size: 20px; }
 
 *:hover {
   -webkit-transition: all 0.3s ease;
@@ -205,10 +204,6 @@ a:focus {
     -ms-transform: translate(-20px, -20px);
     -webkit-transform: translate(-20px, -20px);
     transform: translate(-20px, -20px); } }
-.home .container-fluid {
-  margin: 0 auto;
-  max-width: 1000px;
-  width: 90%; }
 .home .menu {
   background-color: #17A2B8; }
   .home .menu .navbar-light .navbar-nav .nav-link {
@@ -287,21 +282,16 @@ a:focus {
         .home .banner-below .owl-wrapper-outer .owl-wrapper .owl-item .slide .slide:after {
           background-color: rgba(0, 0, 0, 0.5); }
 .home .img-content .slider-title > h1 {
+  text-align: center;
   margin-top: 5rem;
   margin-bottom: 3rem;
   font-weight: bolder;
   color: #ffc63d;
   font-size: 30px; }
-.home .img-content .carousel-indicators li {
-  width: 15px;
-  height: 15px;
-  border-radius: 100px;
-  border: double 1px;
-  border-color: gray; }
-.home .img-content .carousel-indicators .active span {
-  background-color: black;
-  width: 10px;
-  height: 10px; }
+.home .img-content .fluid_container {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 90%; }
 
 .footer {
   height: 300px; }

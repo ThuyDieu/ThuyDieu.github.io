@@ -1,9 +1,4 @@
 .home {
-	.container-fluid {
-		margin: 0 auto;
-	    max-width: 1000px;
-	    width: 90%;
-	}
 	.menu {
 		background-color: #17A2B8;
 		.navbar-light .navbar-nav .nav-link {
@@ -108,25 +103,17 @@
 
 	.img-content {		
 		.slider-title>h1 {
+			text-align: center;
 			margin-top: 5rem;
 		    margin-bottom: 3rem;
 		    font-weight: bolder;
 		    color: #ffc63d;
 		    font-size: 30px;
 		}
-
-		.carousel-indicators li{
-			width: 15px;
-		  	height: 15px;
-		  	border-radius: 100px;
-			border: double 1px;
-		  	border-color: gray;
-		}
-
-		.carousel-indicators .active span {
-			background-color: black;
-			width: 10px;
-			height: 10px;
+		.fluid_container {
+			max-width: 1000px;
+			margin: 0 auto;
+			width: 90%;
 		}
 	}
 }
